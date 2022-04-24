@@ -1,11 +1,8 @@
-let first_dropdown = document.getElementById("first-dropdown-btn");
-first_dropdown.addEventListener("click", () => {
-  document.getElementById("first-dropdown-content").classList.toggle("hidden");
+let dropdown = document.getElementById("dropdown-btn");
+dropdown.addEventListener("click", () => {
+  document.getElementById("dropdown-content").classList.toggle("hidden");
 });
-let second_dropdown = document.getElementById("second-dropdown-btn");
-second_dropdown.addEventListener("click", () => {
-  document.getElementById("second-dropdown-content").classList.toggle("hidden");
-});
+
 let mobile_dropdown = document.getElementById("mbl-dropdown-btn");
 
 mobile_dropdown.addEventListener("click", () => {
